@@ -1,22 +1,28 @@
 ---
-title: search for AI recognition
+title: AI technical documentation
 geometry: margin=2cm
 ---
 
 ## Documentation
-[Documentation Utiliser](https://pysource.com/2021/08/16/face-recognition-in-real-time-with-opencv-and-python/)
+[Tutorial used](https://www.youtube.com/watch?v=5yPeKQzCPdI)  
+[Documentation openCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)  
+[Documentation openCV facial recognition](https://docs.opencv.org/3.4/da/d60/tutorial_face_main.html)  
+[Facial recognition project](https://github.com/ageitgey/face_recognition)  
+
 
 ## Installation
-Dans le shell avec root:
+In the shell with root:
 ```shell
 pip install opencv-python
 pip install face-recognition
 ```
 
-## Utilisation
-Mettre les images qui permettrons de détecter les personnes, dans le dossier `Images/` en lui donnant le nom qui sera afficher lors de la detection de cette personne.
+## Use
+> From here you have to be in the codeIA folder which has the python script. 
 
-## Lancer le script
+Put the images that will detect people in the `Images/` folder, giving it the name that will be displayed when this person is detected.
+
+## Run the script
 ```shell
 python3 main_video.py
 ```
