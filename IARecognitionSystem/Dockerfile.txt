@@ -1,0 +1,9 @@
+from python:latest
+
+WORKDIR /app
+
+expose 10000
+
+COPY IARecognitionSystem/* /app/src/
+
+RUN python3
