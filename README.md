@@ -6,3 +6,7 @@ https://ucafr-my.sharepoint.com/:x:/g/personal/remi_regnault_etu_uca_fr/Ebpxchf4
 
 ## Lien des diagrammes
 https://drive.google.com/file/d/1syouzhHskRiEKGd3hykM9m2gDZVCTozl/view?usp=sharing
+
+## UI
+
+![UI](./UI.png)
