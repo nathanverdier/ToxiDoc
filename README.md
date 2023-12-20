@@ -8,7 +8,7 @@ https://ucafr-my.sharepoint.com/:x:/g/personal/remi_regnault_etu_uca_fr/Ebpxchf4
 https://drive.google.com/file/d/1syouzhHskRiEKGd3hykM9m2gDZVCTozl/view?usp=sharing
 
 ## UI
-
+**La scene des UI ce trouve dans *ToxiRealityUnityUI/Assets/Scenes/SceneForHololens.unity***
 ![UI](./UI.png)
 
 ## Prochaine étape
