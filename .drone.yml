@@ -6,8 +6,8 @@ trigger:
   event:
     - push
 
-  steps:
-    - name: docker-build-and-push
+steps:
+  - name: docker-build-and-push
     image: plugins/docker
     settings:
        dockerfile: IARecognitionSystem/Dockerfile
