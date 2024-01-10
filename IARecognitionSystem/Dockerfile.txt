@@ -6,6 +6,6 @@ COPY IARecognitionSystem/* .
 
 #RUN pip install 
 
-EXPOSE 90
+EXPOSE 80
 
 CMD ["python", "IARecognitionSystem/mainIA.py"]
