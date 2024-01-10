@@ -26,4 +26,5 @@ steps:
         CONTAINERNAME: toxireality_container
         COMMAND: create
         OVERWRITE: true
+        ADMINS: chloemourgand,nathanverdier
         
