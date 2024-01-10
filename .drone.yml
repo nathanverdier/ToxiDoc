@@ -1,20 +1,20 @@
 kind: pipeline
 type: docker
-name: default
+name: default #peut changer
  
 trigger:
   event:
     - push
 
 steps:
- - name: docker-build-and-push
-    image: plugins/docker
-    settings:
-       dockerfile: IARecognitionSystem/Dockerfile
-       context: IARecognitionSystem/
-       registry: hub.codefirst.iut.uca.fr
-       repo: hub.codefirst.iut.uca.fr/lucie.bedouret/ToxiReality
-       username:
-         from_secret: SECRET_REGISTRY_USERNAME
-       password:
-         from_secret: SECRET_REGISTRY_PASSWORD
+  # - name: docker-build-and-push
+  #   image: plugins/docker
+  #   settings:
+  #      dockerfile: IARecognitionSystem/Dockerfile
+  #      context: IARecognitionSystem/
+  #      registry: hub.codefirst.iut.uca.fr
+  #      repo: hub.codefirst.iut.uca.fr/lucie.bedouret/ToxiReality
+  #      username:
+  #        from_secret: SECRET_REGISTRY_USERNAME
+  #      password:
+  #        from_secret: SECRET_REGISTRY_PASSWORD
