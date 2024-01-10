@@ -10,7 +10,7 @@ steps:
  - name: docker-build-and-push
     image: plugins/docker
     settings:
-       dockerfile: 	IARecognitionSystem/Dockerfile
+       dockerfile: IARecognitionSystem/Dockerfile
        context: IARecognitionSystem/
        registry: hub.codefirst.iut.uca.fr
        repo: hub.codefirst.iut.uca.fr/lucie.bedouret/ToxiReality
