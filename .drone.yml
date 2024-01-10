@@ -25,5 +25,6 @@ steps:
         IMAGENAME: hub.codefirst.iut.uca.fr/lucie.bedouret/toxireality:latest
         CONTAINERNAME: toxireality_container
         COMMAND: create
+        ADMINS: chloemourgand,nathanverdier
         OVERWRITE: true
-        ADMINS: chloemourgand , nathanverdier
+        
