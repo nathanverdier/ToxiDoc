@@ -27,4 +27,5 @@ steps:
         COMMAND: create
         OVERWRITE: true
         ADMINS: chloemourgand,nathanverdier
+    depends_on: [ docker-build-and-push ]
         
