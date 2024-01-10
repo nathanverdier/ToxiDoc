@@ -2,8 +2,10 @@ from python:latest
 
 WORKDIR /app
 
-expose 10000
+COPY IARecognitionSystem/* .
 
-COPY IARecognitionSystem/* /app/src/
+#RUN pip install 
 
-RUN python3
+EXPOSE 90
+
+CMD ["python", "IARecognitionSystem/mainIA.py"]
