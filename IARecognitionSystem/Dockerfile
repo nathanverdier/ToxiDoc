@@ -8,4 +8,4 @@ COPY . /app
 
 EXPOSE 80
 
-CMD ["python", "app/IARecognitionSystem/codeIA/mainIA.py"]
+CMD ["python", "IARecognitionSystem/codeIA/mainIA.py"]
