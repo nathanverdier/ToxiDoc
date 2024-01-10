@@ -2,7 +2,7 @@ from python:latest
 
 WORKDIR /app
 
-COPY IARecognitionSystem/ .
+COPY ./IARecognitionSystem/* .
 
 #RUN pip install 
 
