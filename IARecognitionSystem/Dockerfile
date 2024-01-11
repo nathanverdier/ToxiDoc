@@ -2,7 +2,7 @@ from python:latest
 
 WORKDIR /app
 
-COPY . /app
+COPY ./codeIA /app
 
 #RUN pip install 
 
@@ -10,4 +10,4 @@ EXPOSE 80
 
 RUN ls
 
-CMD ["python", "codeIA/mainIA.py"]
+CMD ["python", "mainIA.py"]
