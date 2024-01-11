@@ -8,6 +8,6 @@ COPY . /app
 
 EXPOSE 80
 
-RUN ls -l
+RUN ls
 
-CMD ["python", "IARecognitionSystem/codeIA/mainIA.py"]
+CMD ["python", "codeIA/mainIA.py"]
