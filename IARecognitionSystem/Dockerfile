@@ -11,6 +11,13 @@ RUN apt-get update && \
 
 RUN pip install opencv-python
 
+RUN apt-get update && \
+    apt-get install -y cmake build-essential libopencv-dev libopenblas-dev liblapack-dev libx11-dev libgtk-3-dev
+
+RUN pip install dlib
+
+RUN pip install face_recognition
+
 EXPOSE 80
 
 RUN ls
