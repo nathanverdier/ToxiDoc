@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY ./codeIA /app
 
-#RUN pip install 
+RUN pip install --upgrade pip
+
+RUN pip install opencv-python
 
 EXPOSE 80
 
