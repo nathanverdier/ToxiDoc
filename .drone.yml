@@ -1,10 +1,12 @@
 kind: pipeline
 type: docker
 name: default #peut changer
- 
+
 trigger:
   event:
     - push
+  branch:
+    - test_ironPython
 
 steps:
   - name: docker-build-and-push
