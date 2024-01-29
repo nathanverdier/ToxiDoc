@@ -9,6 +9,12 @@ trigger:
     - test_ironPython
 
 steps:
+  - name: install_dependencies
+    image: python:3.8
+    commands:
+      - pip install -r requirements.txt
+
+
   - name: docker-build-and-push
     image: plugins/docker
     settings:
